@@ -1,4 +1,6 @@
-local.properties, ant.properties and build.properties need to be created manually on local system.
+- local.properties, ant.properties and build.properties need to be created manually on local system.
+- The above 3 properties files need to be created in ../properties folder.
+- If you decide to choose another folder, build.xml need to be updated accordingly.
 
 local.properties
 ```sh
