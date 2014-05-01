@@ -1,0 +1,7 @@
+*.properties
+*.log
+*.txt
+bin
+*.sh
+assets
+AndroidManifest.xml

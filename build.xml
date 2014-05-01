@@ -26,7 +26,8 @@
          application and should be checked into Version Control Systems.
 
          -->
-    <property file="ant.properties" />
+    <property file="../properties/build.properties" />
+    <property file="../properties/ant.properties" />
 
     <!-- if sdk.dir was not set from one of the property file, then
          get it from the ANDROID_HOME env var.
@@ -47,7 +48,7 @@
          This file is an integral part of the build system for your
          application and should be checked into Version Control Systems. -->
     <!--loadproperties srcFile="project.properties" /-->
-    <loadproperties srcFile="../properties/rideon-sf-android-app.properties" />
+    <loadproperties srcFile="project.properties" />
 
     <!-- quick check on sdk.dir -->
     <fail
