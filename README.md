@@ -36,3 +36,11 @@ target=android-19
 android.library=false
 android.library.reference.1=PATH_TO_rideon-android-lib
 ```
+AndroidManifest.xml
+Create the AndroidManifest.xml file from AndroidManifest.xml.template and replace Google Maps Android API v2-KEY with your key in following code block:
+```sh
+<meta-data
+  android:name="com.google.android.maps.v2.API_KEY"
+  android:value="Google Maps Android API v2-KEY" />
+```
+
