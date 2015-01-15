@@ -16,6 +16,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
         <item name="android:typeface">sans</item>
+        <item name="android:windowActionBar">true</item>
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
